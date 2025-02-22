@@ -7,7 +7,6 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import concurrent.futures
 import threading
-from steam_checker import SteamChecker
 from disney_checker import DisneyChecker
 from ubisoft_checker import UbisoftChecker
 from ipvanish_checker import IPVanishChecker
